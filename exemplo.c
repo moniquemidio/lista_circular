@@ -38,12 +38,6 @@ Lista* inserirFinal(Lista* l, int valor) {
 /* Impressão da lista circular */
 void imprimir(Lista* l) {
 
-    /* Verifica lista vazia */
-    if (l == NULL) {
-        printf("Lista vazia!\n");
-        return;
-    }
-
     Lista* p = l;
 
     /* Percorre a lista */
